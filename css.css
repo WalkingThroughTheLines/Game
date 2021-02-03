@@ -1,0 +1,297 @@
+html{
+	background-color:#147A6C;
+	font-family: Trebuchet MS, sans-serif;
+}
+/*picaporte*/
+#logo{
+	width: 150px;
+	height: 90px;
+}
+#divlogo{
+	height: 100px;
+	background-color:#B1B4B3;
+	border-style: outset;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+button{
+	background-color:#B1B4B3;
+	width: 100px;
+	height: 50px;
+}
+#divlateral{
+	z-index:50;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-color:#B1B4B3;
+	border-style: outset;
+	position: absolute;
+	top: 120px;
+	width: 100px;
+	height: 1000px;
+}
+.div2:active{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 119px;
+	left: 500px;
+}
+.div2:active img{
+	width: 0px;
+	height: 0px;
+}
+#caratula{
+	position: absolute;
+	z-index:1;
+	top: 120px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	margin-left: 30%; 
+}
+.div2 dir{
+	position: absolute;
+	top: -100000000px;
+}
+.div2:active dir{
+	top: 105px;
+	left:20px;
+}
+.div1{
+	position: absolute;
+	z-index:2;
+}
+#one{
+	position: absolute;
+	top: 60px;
+	left: 140px;
+}
+#two{
+	position: absolute;
+	top: 700px;
+	left: 1600px;
+}
+#three{
+	position: absolute;
+	top: 110px;
+	left: 300px;
+}
+#four{
+	position: absolute;
+	top: 300px;
+	left: 265px;
+}
+/*a partir de aqui css exclusivo de monstruos.html*/
+#monst1,#monst2,#monst3,#monst4{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+}
+#monst1:hover,#monst2:hover,#monst3:hover,#monst4:hover{
+	z-index:60;
+}
+#monst1{
+	top: 130px;
+	left: 130px;
+}
+#monst1 #x{
+	top: -424px;
+	left: 377px;
+}
+#monst2{
+	top: 120px;
+	left: 700px;
+}
+#monst2 #x{
+	top: -404px;
+	left: -2px;
+}
+#monst3{
+	top: 550px;
+	left: 151px;
+}
+#monst3 #x{
+	top: -404.5px;
+	left: -2.5px;
+}
+#monst4{
+	top: 580px;
+	left: 750px;
+}
+#monst4 #x{
+	top: -404.5px;
+	left: 192px;
+}
+#monst1 dir,#monst2 dir,#monst3 dir,#monst4 dir{
+	position: relative;
+	top: 120px;
+}
+/*a partir de aqui css exclusivo de mecanicas.html*/
+#mecanicas{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 250px;
+	left: 500px;
+}
+#mecanicas dir{
+	position: relative;
+	top: 130px;
+}
+#x{
+	position: relative;
+	top: -413px;
+	left: 582px;
+}
+/*a partir de aqui css exclusivo de creditos.html*/
+#creditos{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 250px;
+	left: 500px;
+}
+#creditos dir{
+	position: relative;
+	top: 65px;
+}
+#creditos #x{
+	position: relative;
+	top: -333px;
+	left: 582px;
+}
+/*a partir de aqui css exclusivo de materiales.html*/
+#mat1:hover,#mat2:hover,#mat3:hover,#mat4:hover,#mat5:hover,#mat6:hover{
+	z-index:60;
+}
+#mat1{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 200px;
+	left: 200px;
+}
+#mat1 dir{
+	position: relative;
+	top: 115px;
+	font-size: 14px;
+	
+}
+#mat1 #x{
+	position: relative;
+	top: -434px;
+	left: 582px;
+}
+#mat2{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 250px;
+	left: 700px;
+}
+#mat2 dir{
+	position: relative;
+	top: 115px;
+	font-size: 14px;
+	
+}
+#mat2 #x{
+	position: relative;
+	top: -434px;
+	left: 582px;
+}
+#mat3{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 170px;
+	left: 1000px;
+}
+#mat3 dir{
+	position: relative;
+	top: 170px;	
+}
+#mat3 #x{
+	position: relative;
+	top: -368px;
+	left: 582px;
+}
+#mat4{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 600px;
+	left: 180px;
+}
+#mat4 dir{
+	position: relative;
+	top: 110px;	
+	font-size: 13px;
+
+}
+#mat4 #x{
+	position: relative;
+	top: -434px;
+	left: 582px;
+}
+#mat5{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 700px;
+	left: 580px;
+}
+#mat5 dir{
+	position: relative;
+	top: 114px;	
+	font-size: 11px;
+
+}
+#mat5 #x{
+	position: relative;
+	top: -428px;
+	left: 582px;
+}
+#mat6{
+	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 650px;
+	left: 1100px;
+}
+#mat6 dir{
+	position: relative;
+	top: 170px;	
+
+}
+#mat6 #x{
+	position: relative;
+	top: -333px;
+	left: 582px;
+}
