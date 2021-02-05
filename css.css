@@ -18,6 +18,9 @@ button{
 	width: 100px;
 	height: 50px;
 }
+#asd{
+	font-size: 0px;
+}
 #divlateral{
 	z-index:50;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -67,8 +70,8 @@ button{
 }
 #two{
 	position: absolute;
-	top: 700px;
-	left: 1600px;
+	top: 20px;
+	left: 450px;
 }
 #three{
 	position: absolute;
@@ -169,7 +172,7 @@ button{
 	left: 582px;
 }
 /*a partir de aqui css exclusivo de materiales.html*/
-#mat1:hover,#mat2:hover,#mat3:hover,#mat4:hover,#mat5:hover,#mat6:hover{
+#mat1:hover,#mat2:hover,#mat3:hover,#mat4:hover,#mat5:hover,#mat6:hover,#mat7:hover{
 	z-index:60;
 }
 #mat1{
@@ -195,6 +198,16 @@ button{
 }
 #mat2{
 	z-index:2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 250px;
+	left: 700px;
+}
+#mat7{
+	z-index:1;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 	background-image: url(texto.jpg);
 	width: 640px;
