@@ -21,13 +21,23 @@ button{
 #asd{
 	font-size: 0px;
 }
-#divlateral{
-	z-index:50;
+#divlateralfondo{
+	z-index: 49;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 	background-color:#B1B4B3;
 	border-style: outset;
 	position: absolute;
 	top: 120px;
+	width: 100px;
+	height: 1000px;
+}
+#divlateral{
+	z-index:50;
+	background-color:#B1B4B3;
+	border-left-style: outset;
+	border-right-style: outset;
+	position: fixed;
+	top: 125px;
 	width: 100px;
 	height: 1000px;
 }
