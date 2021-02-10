@@ -15,7 +15,7 @@ html{
 	height: 50px;
 }
 .divinferior{
-	z-index: 2;
+	z-index: 99;
 	position: fixed;
 	top: 90%;
 	left: 8.5%;
@@ -27,6 +27,11 @@ html{
 }
 #asd{
 	font-size: 0px;
+}
+#iconc:hover{
+	background-color: #A9ABAB;
+	border-style: solid;
+	border-color: #A9ABAB;
 }
 #divlateralfondo{
 	z-index: 49;
@@ -193,11 +198,6 @@ html{
 	top: -85px;
 	left: 588px;
 }
-#iconc:hover{
-	background-color: #A9ABAB;
-	border-style: solid;
-	border-color: #A9ABAB;
-}
 /*a partir de aqui css exclusivo de materiales.html*/
 #mat1:hover,#mat2:hover,#mat3:hover,#mat4:hover,#mat5:hover,#mat6:hover,#mat7:hover{
 	z-index:60;
@@ -223,18 +223,13 @@ html{
 	top: -434px;
 	left: 582px;
 }
+#mat1 #minimizar{
+	position: absolute;
+	top: -130px;
+	left: 588px;
+}
 #mat2{
 	z-index:2;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-	background-image: url(texto.jpg);
-	width: 640px;
-	height:453px;
-	position:absolute;
-	top: 250px;
-	left: 700px;
-}
-#mat7{
-	z-index:1;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 	background-image: url(texto.jpg);
 	width: 640px;
@@ -254,6 +249,11 @@ html{
 	top: -434px;
 	left: 582px;
 }
+#mat2 #minimizar{
+	position: absolute;
+	top: -130px;
+	left: 588px;
+}
 #mat3{
 	z-index:2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -272,6 +272,11 @@ html{
 	position: relative;
 	top: -368px;
 	left: 582px;
+}
+#mat3 #minimizar{
+	position: absolute;
+	top: -190px;
+	left: 588px;
 }
 #mat4{
 	z-index:2;
@@ -294,6 +299,11 @@ html{
 	top: -434px;
 	left: 582px;
 }
+#mat4 #minimizar{
+	position: absolute;
+	top: -123px;
+	left: 588px;
+}
 #mat5{
 	z-index:2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -315,6 +325,11 @@ html{
 	top: -428px;
 	left: 582px;
 }
+#mat5 #minimizar{
+	position: absolute;
+	top: -125px;
+	left: 588px;
+}
 #mat6{
 	z-index:2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -333,4 +348,24 @@ html{
 	position: relative;
 	top: -333px;
 	left: 582px;
+}
+#mat6 #minimizar{
+	position: absolute;
+	top: -190px;
+	left: 588px;
+}
+#mat7{
+	z-index:1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 250px;
+	left: 700px;
+}
+#mat7 #minimizar{
+	position: absolute;
+	top: -1px;
+	left: 588px;
 }
