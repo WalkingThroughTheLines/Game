@@ -3,20 +3,27 @@ html{
 	font-family: Trebuchet MS, sans-serif;
 }
 /*picaporte*/
-#logo{
-	width: 150px;
-	height: 90px;
-}
 #divlogo{
 	height: 100px;
 	background-color:#B1B4B3;
 	border-style: outset;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
-button{
+#divlateral button{
 	background-color:#B1B4B3;
 	width: 100px;
 	height: 50px;
+}
+.divinferior{
+	z-index: 2;
+	position: fixed;
+	top: 90%;
+	left: 8.5%;
+	height: 60px;
+	width: 600px;
+	background-color:#B1B4B3;
+	border-style: outset;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 #asd{
 	font-size: 0px;
@@ -149,7 +156,7 @@ button{
 	width: 640px;
 	height:453px;
 	position:absolute;
-	top: 250px;
+	top: 150px;
 	left: 500px;
 }
 #mecanicas dir{
@@ -169,7 +176,7 @@ button{
 	width: 640px;
 	height:453px;
 	position:absolute;
-	top: 250px;
+	top: 150px;
 	left: 500px;
 }
 #creditos dir{
@@ -180,6 +187,16 @@ button{
 	position: relative;
 	top: -333px;
 	left: 582px;
+}
+#creditos #minimizar{
+	position: absolute;
+	top: -85px;
+	left: 588px;
+}
+#iconc:hover{
+	background-color: #A9ABAB;
+	border-style: solid;
+	border-color: #A9ABAB;
 }
 /*a partir de aqui css exclusivo de materiales.html*/
 #mat1:hover,#mat2:hover,#mat3:hover,#mat4:hover,#mat5:hover,#mat6:hover,#mat7:hover{
@@ -311,7 +328,6 @@ button{
 #mat6 dir{
 	position: relative;
 	top: 170px;	
-
 }
 #mat6 #x{
 	position: relative;
