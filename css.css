@@ -3,23 +3,35 @@ html{
 	font-family: Trebuchet MS, sans-serif;
 }
 /*picaporte*/
-#logo{
-	width: 150px;
-	height: 90px;
-}
 #divlogo{
 	height: 100px;
 	background-color:#B1B4B3;
 	border-style: outset;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
-button{
+#divlateral button{
 	background-color:#B1B4B3;
 	width: 100px;
 	height: 50px;
 }
+.divinferior{
+	z-index: 99;
+	position: fixed;
+	top: 90%;
+	left: 8.5%;
+	height: 60px;
+	width: 600px;
+	background-color:#B1B4B3;
+	border-style: outset;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
 #asd{
 	font-size: 0px;
+}
+#iconc:hover{
+	background-color: #A9ABAB;
+	border-style: solid;
+	border-color: #A9ABAB;
 }
 #divlateralfondo{
 	z-index: 49;
@@ -110,32 +122,56 @@ button{
 	left: 130px;
 }
 #monst1 #x{
-	top: -424px;
-	left: 377px;
+	position: absolute;
+	top: -135px;
+	left: 622px;
+}
+#monst1 #minimizar{
+	position: absolute;
+	top: -137px;
+	left: 588px;
 }
 #monst2{
 	top: 120px;
 	left: 700px;
 }
 #monst2 #x{
-	top: -404px;
-	left: -2px;
+	position: absolute;
+	top: -135px;
+	left: 622px;
+}
+#monst2 #minimizar{
+	position: absolute;
+	top: -137px;
+	left: 588px;
 }
 #monst3{
 	top: 550px;
 	left: 151px;
 }
 #monst3 #x{
-	top: -404.5px;
-	left: -2.5px;
+	position: absolute;
+	top: -135.5px;
+	left: 622.2px;
+}
+#monst3 #minimizar{
+	position: absolute;
+	top: -137px;
+	left: 588px;
 }
 #monst4{
 	top: 580px;
 	left: 750px;
 }
 #monst4 #x{
-	top: -404.5px;
-	left: 192px;
+	position: absolute;
+	top: -135.5px;
+	left: 622px;
+}
+#monst4 #minimizar{
+	position: absolute;
+	top: -137px;
+	left: 588px;
 }
 #monst1 dir,#monst2 dir,#monst3 dir,#monst4 dir{
 	position: relative;
@@ -149,7 +185,7 @@ button{
 	width: 640px;
 	height:453px;
 	position:absolute;
-	top: 250px;
+	top: 150px;
 	left: 500px;
 }
 #mecanicas dir{
@@ -157,9 +193,14 @@ button{
 	top: 130px;
 }
 #x{
-	position: relative;
+	position: absolute;
 	top: -413px;
 	left: 582px;
+}
+#mecanicas #minimizar{
+	position: absolute;
+	top: -150px;
+	left: 588px;
 }
 /*a partir de aqui css exclusivo de creditos.html*/
 #creditos{
@@ -169,7 +210,7 @@ button{
 	width: 640px;
 	height:453px;
 	position:absolute;
-	top: 250px;
+	top: 150px;
 	left: 500px;
 }
 #creditos dir{
@@ -180,6 +221,11 @@ button{
 	position: relative;
 	top: -333px;
 	left: 582px;
+}
+#creditos #minimizar{
+	position: absolute;
+	top: -85px;
+	left: 588px;
 }
 /*a partir de aqui css exclusivo de materiales.html*/
 #mat1:hover,#mat2:hover,#mat3:hover,#mat4:hover,#mat5:hover,#mat6:hover,#mat7:hover{
@@ -206,18 +252,13 @@ button{
 	top: -434px;
 	left: 582px;
 }
+#mat1 #minimizar{
+	position: absolute;
+	top: -130px;
+	left: 588px;
+}
 #mat2{
 	z-index:2;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-	background-image: url(texto.jpg);
-	width: 640px;
-	height:453px;
-	position:absolute;
-	top: 250px;
-	left: 700px;
-}
-#mat7{
-	z-index:1;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 	background-image: url(texto.jpg);
 	width: 640px;
@@ -237,6 +278,11 @@ button{
 	top: -434px;
 	left: 582px;
 }
+#mat2 #minimizar{
+	position: absolute;
+	top: -130px;
+	left: 588px;
+}
 #mat3{
 	z-index:2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -255,6 +301,11 @@ button{
 	position: relative;
 	top: -368px;
 	left: 582px;
+}
+#mat3 #minimizar{
+	position: absolute;
+	top: -190px;
+	left: 588px;
 }
 #mat4{
 	z-index:2;
@@ -277,6 +328,11 @@ button{
 	top: -434px;
 	left: 582px;
 }
+#mat4 #minimizar{
+	position: absolute;
+	top: -123px;
+	left: 588px;
+}
 #mat5{
 	z-index:2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -298,6 +354,11 @@ button{
 	top: -428px;
 	left: 582px;
 }
+#mat5 #minimizar{
+	position: absolute;
+	top: -125px;
+	left: 588px;
+}
 #mat6{
 	z-index:2;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -311,10 +372,29 @@ button{
 #mat6 dir{
 	position: relative;
 	top: 170px;	
-
 }
 #mat6 #x{
 	position: relative;
 	top: -333px;
 	left: 582px;
+}
+#mat6 #minimizar{
+	position: absolute;
+	top: -190px;
+	left: 588px;
+}
+#mat7{
+	z-index:1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	background-image: url(texto.jpg);
+	width: 640px;
+	height:453px;
+	position:absolute;
+	top: 250px;
+	left: 700px;
+}
+#mat7 #minimizar{
+	position: absolute;
+	top: -1px;
+	left: 588px;
 }
